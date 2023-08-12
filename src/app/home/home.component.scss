@@ -54,6 +54,11 @@
 .div-heade-2{
     width: 85%;
     padding: 1rem;
+    @media(max-width: 670px){
+        width: 60%;
+        padding: 1rem;
+    }
+
 }
 
 .div-app-card{
