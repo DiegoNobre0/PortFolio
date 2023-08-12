@@ -18,4 +18,8 @@ export class CardComponent {
   getImagem() {
     return `url('${this.data.image}')`;
   }
+
+  toLink(){   
+    window.open(this.data.linkButton, '_blank');
+  }
 }
