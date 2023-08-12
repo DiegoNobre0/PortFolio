@@ -19,12 +19,10 @@
     background: linear-gradient(90deg, #ae00ff 2.62%, #1996fd 93.38%);
 }
 
-
 .div-heade{
     color: white;
     z-index: 2;
 }
-
 
 .div-rad-1{
     position: relative;
@@ -48,10 +46,14 @@
 
 }
 
-
 .div-header-padding{
     padding-left: 8rem;
     margin-bottom: -8rem;
+}
+
+.div-heade-2{
+    width: 85%;
+    padding: 1rem;
 }
 
 .div-app-card{
@@ -61,6 +63,14 @@
     @media(max-width: 670px){
         display: grid;
         grid-template-columns: 100%;
+    }
+}
+
+.div-heade-1{
+    height: 22rem;
+    @media(max-width: 670px){
+        color: white;
+        margin-left: 11rem;
     }
 }
 
@@ -90,10 +100,21 @@
     justify-content: center;
 }
 
+.div-flex-center-header{
+    display: flex;
+    justify-content: center;
+    padding-left: 8rem;
+    @media(max-width: 670px){
+        display: flex;
+        flex-direction: column;
+        padding-left: 0rem;
+    }
+}
+
 .div-flex-header{
     display: flex;
     
-    @media(min-width: 670px){
+    @media(max-width: 670px){
        display: flex;
        justify-content: center;
     }
@@ -106,15 +127,22 @@
     color: transparent; 
 }
 
-.div-info{
-    // padding: 2rem 8rem 2rem 9rem;
+.font-size-h1{
+    font-size: 26px;
+}
+
+.div-info{    
     flex-direction: column;
     gap: 1rem;
     color: white;
     padding-top: 2rem;
-    @media(max-width: 800px){
+    width: 42rem;
+    padding-left: 3rem;
+    @media(max-width: 670px){
         width: 100%;
-        display: flex;
+        display: grid;
+        grid-template-columns: 5px auto;
+        padding-left: 1rem;
     }
     h5{
         font-size: 10px;
@@ -124,6 +152,25 @@
     }
     .div-info-2{
         display: flex;
+        @media(max-width: 670px){
+           flex-direction: column;
+        }
+
+        .div-data-1{
+            width: 4rem;
+            padding: 0.5rem;
+            @media(max-width: 670px){
+                width: 85%;
+            }
+        }
+
+        .div-data-2{
+            width: 10rem;
+            padding: 0.5rem;
+            @media(max-width: 670px){
+                width: 85%;
+             }
+        }
        
     }
     .linhaTempo{
@@ -133,8 +180,10 @@
         background-color: white;
         border-radius: 1rem;
         justify-content: space-between;
-        @media(max-width: 800px){
+        @media(max-width: 670px){
             width: 100%;
+            height: auto;
+            flex-direction: column;
         }
     }
     .div-linhaTempo-1{
@@ -145,6 +194,10 @@
         background: linear-gradient(90deg, #ae00ff 2.62%, #1996fd 93.38%);
         border-image-slice: 1;
         top: -10px;
+        @media(max-width: 670px){
+            top: -2px;
+            right: 10px;
+        }
     }
     .div-linhaTempo-2{
         position: relative;
@@ -154,7 +207,11 @@
         background: linear-gradient(90deg, #ae00ff 2.62%, #1996fd 93.38%);
         border-image-slice: 1;
         top: -10px;
-        right: 2rem;
+        right: 4rem;
+        @media(max-width: 670px){
+            right: 10px;
+            top: -7.2rem;
+        }
     }
     .div-linhaTempo-3{
         position: relative;
@@ -164,7 +221,11 @@
         background: linear-gradient(90deg, #ae00ff 2.62%, #1996fd 93.38%);
         border-image-slice: 1;
         top: -10px;      
-        right: 2rem; 
+        right: 3rem; 
+        @media(max-width: 670px){
+            top: -9.6rem;
+            right: 10px;
+        }
     }
     .div-linhaTempo-4{
         position: relative;
@@ -174,7 +235,11 @@
         background: linear-gradient(90deg, #ae00ff 2.62%, #1996fd 93.38%);
         border-image-slice: 1;
         top: -10px;   
-        right: 2rem;  
+        right: 2rem;
+        @media(max-width: 670px){
+            right: 10px;
+            top: -11.9rem;
+        }  
     }
     .div-linhaTempo-5{
         position: relative;
@@ -183,6 +248,10 @@
         border-radius: 50%;        
         background: linear-gradient(90deg, #ae00ff 2.62%, #1996fd 93.38%);
         border-image-slice: 1;
-        top: -10px;     
+        top: -10px; 
+        @media(max-width: 670px){
+            top: -12rem;
+            right: 10px;
+        }    
     }
 }

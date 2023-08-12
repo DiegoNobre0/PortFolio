@@ -7,13 +7,15 @@ import { HomeComponent } from './home/home.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatButtonModule} from '@angular/material/button';
-import { CardComponent } from './card/card.component';
+import { CardComponent } from './components/card/card.component';
+import { TruncatePipe } from './components/trucate-pipe/trucate.pipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CardComponent
+    CardComponent,  
+    TruncatePipe 
   ],
   imports: [
     BrowserModule,
