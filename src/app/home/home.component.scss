@@ -3,8 +3,8 @@
     left: 3rem;
     bottom: 1rem;
     z-index: 10;
-    height: 140px;
-    width: 140px;
+    height: 168px;
+    width: 168px;
     border-radius: 50%;
     background: linear-gradient(90deg, #ae00ff 2.62%, #1996fd 93.38%);
 }
@@ -52,7 +52,7 @@
 }
 
 .div-heade-2{
-    width: 85%;
+    width: 65%;
     padding: 1rem;
     @media(max-width: 670px){
         width: 60%;
@@ -81,11 +81,11 @@
 
 .image-profile-1 {
     position: relative;
-    left: 1px;
+    left: 2px;
     bottom: -2px;
     z-index: 10;
-    height: 136px;
-    width: 136px;
+    height: 163px;
+    width: 163px;
     border-radius: 50%;
 }
 
@@ -162,7 +162,7 @@
         }
 
         .div-data-1{
-            width: 4rem;
+            width: 10rem;
             padding: 0.5rem;
             @media(max-width: 670px){
                 width: 85%;
@@ -226,8 +226,9 @@
         background: linear-gradient(90deg, #ae00ff 2.62%, #1996fd 93.38%);
         border-image-slice: 1;
         top: -10px;      
-        right: 3rem; 
+        // right: 3rem; 
         @media(max-width: 670px){
+            display: none;
             top: -9.6rem;
             right: 10px;
         }
@@ -240,10 +241,10 @@
         background: linear-gradient(90deg, #ae00ff 2.62%, #1996fd 93.38%);
         border-image-slice: 1;
         top: -10px;   
-        right: 2rem;
+        // right: 2rem;
         @media(max-width: 670px){
             right: 10px;
-            top: -11.9rem;
+            top: -6.9rem;
         }  
     }
     .div-linhaTempo-5{
@@ -255,7 +256,7 @@
         border-image-slice: 1;
         top: -10px; 
         @media(max-width: 670px){
-            top: -12rem;
+            top: -11rem;
             right: 10px;
         }    
     }
