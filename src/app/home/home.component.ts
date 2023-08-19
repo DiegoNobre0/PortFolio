@@ -7,13 +7,8 @@ import { Card } from '../model/card';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  image: any;
-  textHead: any;
-  textFooter: any;
-  linkButton: any;
-
   ngOnInit(): void {
-    
+
   }
 
   dataCard: Card[] = [

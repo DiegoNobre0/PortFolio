@@ -9,7 +9,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatButtonModule} from '@angular/material/button';
 import { CardComponent } from './components/card/card.component';
 
-import { TrucatePipe } from './components/trucate-pipe/trucate.pipe';
+import { TrucatePipe } from './pipe/trucate-pipe/trucate.pipe';
 
 @NgModule({
   declarations: [

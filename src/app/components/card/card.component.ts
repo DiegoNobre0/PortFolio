@@ -1,8 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Card } from '../../model/card';
-import { TrucatePipe} from '../trucate-pipe/trucate.pipe';
-
-
+import { TrucatePipe} from '../../pipe/trucate-pipe/trucate.pipe';
 
 @Component({
   selector: 'app-card',
@@ -23,12 +21,5 @@ export class CardComponent {
 
   toLink(){   
     window.open(this.data.linkButton, '_blank');
-  }
-
-  transform(value: string, maxLength: number): string {
-    if (value.length > maxLength) {
-      return value.substring(0, maxLength) + '...';
-    }
-    return value;
   }
 }
